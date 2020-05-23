@@ -34,7 +34,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let vcFirst = VCSwitch.init(nibName: "VCSwitch", bundle: nil)
 
         let navigation = UINavigationController.init(rootViewController: vcFirst)
-        navigation.setNavigationBarHidden(true, animated: false)
         
         window.rootViewController = navigation
         window.makeKeyAndVisible()

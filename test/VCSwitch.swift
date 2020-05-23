@@ -44,4 +44,15 @@ class VCSwitch: UIViewController {
         self.navigationController?.pushViewController(vcCore, animated: true)
 
     }
+    
+    
+    //got to ui
+    
+    @IBAction func tapUI(_ sender: Any) {
+        
+        let vcUI = VCUI.init(nibName: "VCUI", bundle: nil)
+        self.navigationController?.pushViewController(vcUI, animated: true)
+        
+    }
+    
 }
