@@ -28,9 +28,11 @@
 		<true/>
 	</dict>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Need Access</string>
+	<string>This app requires access to photo library</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Need Access</string>
+	<string>This app requires access of photo library to create product</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app requires access to photo library</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -65,5 +67,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires access to camera to take product image and scan upi qr</string>
+	<key>NSContactsUsageDescription</key>
+	<string>This app need to access of contact list to create credit customer</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app need location to improve your service</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We&apos;ll be able to provide local language support and relevant wholesaler offers.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We&apos;ll be able to provide local language support and relevant wholesaler offers.</string>
 </dict>
 </plist>

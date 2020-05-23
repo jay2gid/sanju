@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA5FC20D245302E200852048"
                BuildableName = "WEB.app"
-               BlueprintName = "test"
-               ReferencedContainer = "container:test.xcodeproj">
+               BlueprintName = "POSLiteWeb"
+               ReferencedContainer = "container:POSLiteWeb.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "FA5FC223245302E300852048"
                BuildableName = "testTests.xctest"
                BlueprintName = "testTests"
-               ReferencedContainer = "container:test.xcodeproj">
+               ReferencedContainer = "container:POSLiteWeb.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "FA5FC22E245302E300852048"
                BuildableName = "testUITests.xctest"
                BlueprintName = "testUITests"
-               ReferencedContainer = "container:test.xcodeproj">
+               ReferencedContainer = "container:POSLiteWeb.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -66,8 +66,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA5FC20D245302E200852048"
             BuildableName = "WEB.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BlueprintName = "POSLiteWeb"
+            ReferencedContainer = "container:POSLiteWeb.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -90,8 +90,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA5FC20D245302E200852048"
             BuildableName = "WEB.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BlueprintName = "POSLiteWeb"
+            ReferencedContainer = "container:POSLiteWeb.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

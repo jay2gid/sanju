@@ -11,45 +11,115 @@ import WebKit
 
 class VCWebview: UIViewController ,WKNavigationDelegate , UIScrollViewDelegate{
 
-    @IBOutlet var webKit: WKWebView!
+
+    @IBOutlet var txtFirst: UITextField!
+    @IBOutlet var txtLast: UITextField!
+    @IBOutlet var btnSubmit: UIButton!
+    @IBOutlet var lblTemp: UILabel!
     
-    @IBOutlet var ind: UIActivityIndicatorView!
-    let urlString = "https://sandbox-pwa.signcatch.com/"
-    // let urlString = "https://www.google.com/"
     
     override func viewDidLoad() {
-        
         super.viewDidLoad()
-        DispatchQueue.main.async {
-            let url = URL(string: self.urlString)
-            let urlReq = URLRequest.init(url: url!)            
-            self.webKit.load(urlReq)
-            self.webKit.navigationDelegate = self
-            self.webKit.scrollView.delegate = self
-        }
+        
     }
     
     
-    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-           return nil
+    @IBAction func tapSubmit(_ sender: Any) {
+        lblTemp.text =   txtFirst.text! + " " + txtLast.text!
     }
     
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+    
+    
+    func myFun() {
         
-        let script = "localStorage.getItem(\"key\")"
+        // contant str
+        let myName = "sanjay"
+        print(myName)
         
-        webView.evaluateJavaScript(script) { (result, error) in
-            webView.evaluateJavaScript("localStorage.setItem(\"key\", \"value\")") { (result, error) in
-                //webView.reload()
-            }
-        }
+        // changable
+        var name : String!
         
-        // you might want to edit the script, with the escape characters
-           
-       webView.evaluateJavaScript(script) { (token, error) in
-            print("token = \(String(describing: token))")
-       }
+        name = "hello"
+        name = "sanjay"
+      
+        print(name!)
+        
+        
+        
+//        var value : Int!
+        
+        
         
     }
+    
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+extension VCWebview {
+    
+    
+}
+
+protocol randomgen {
+    func random() -> Double
+}
+
+
+protocol Togglable {
+    mutating func toggle()
+}
+
+enum Myenum:Togglable {
+  
+    mutating func toggle() {
+        
+        switch self {
+        case .on:
+            self = .off
+        case .off:
+            self = .on
+        }
+    }
+    
+    case on , off
+    
+    
+}
+
+protocol SomeProtocol {
+    init(someParameter: Int)
+}
+
+protocol TextRepresentable {
+    var textualDescription: String { get }
+}
+
+class MyClass: TextRepresentable {
+    
+    var textualDescription: String {
+        return "hello"
+    }
+        
+    func random() -> Double {
+        return 2.0
+    }
+    
 }

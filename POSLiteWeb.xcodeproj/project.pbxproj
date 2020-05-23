@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA017AC224649AD000D3846B /* SCWebKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA017AC124649AD000D3846B /* SCWebKitView.swift */; };
 		FA5FC212245302E200852048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FC211245302E200852048 /* AppDelegate.swift */; };
 		FA5FC214245302E200852048 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FC213245302E200852048 /* SceneDelegate.swift */; };
 		FA5FC218245302E300852048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5FC217245302E300852048 /* Assets.xcassets */; };
@@ -14,9 +15,12 @@
 		FA5FC2432453032500852048 /* VCWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FC2412453032500852048 /* VCWebview.swift */; };
 		FA5FC2442453032500852048 /* VCWebview.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5FC2422453032500852048 /* VCWebview.xib */; };
 		FA896F702453316E00D5D601 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA896F6F2453316E00D5D601 /* WebKit.framework */; };
+		FAB1C0D52477BC1A00DED50E /* VCSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1C0D32477BC1A00DED50E /* VCSwitch.swift */; };
+		FAB1C0D62477BC1A00DED50E /* VCSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB1C0D42477BC1A00DED50E /* VCSwitch.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA017AC124649AD000D3846B /* SCWebKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWebKitView.swift; sourceTree = "<group>"; };
 		FA5FC20E245302E200852048 /* WEB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5FC211245302E200852048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA5FC213245302E200852048 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		FA5FC2412453032500852048 /* VCWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCWebview.swift; sourceTree = "<group>"; };
 		FA5FC2422453032500852048 /* VCWebview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCWebview.xib; sourceTree = "<group>"; };
 		FA896F6F2453316E00D5D601 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FAB1C0D32477BC1A00DED50E /* VCSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSwitch.swift; sourceTree = "<group>"; };
+		FAB1C0D42477BC1A00DED50E /* VCSwitch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCSwitch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				FA5FC213245302E200852048 /* SceneDelegate.swift */,
 				FA5FC2412453032500852048 /* VCWebview.swift */,
 				FA5FC2422453032500852048 /* VCWebview.xib */,
+				FA017AC124649AD000D3846B /* SCWebKitView.swift */,
+				FAB1C0D32477BC1A00DED50E /* VCSwitch.swift */,
+				FAB1C0D42477BC1A00DED50E /* VCSwitch.xib */,
 				FA5FC217245302E300852048 /* Assets.xcassets */,
 				FA5FC21C245302E300852048 /* LaunchScreen.storyboard */,
 				FA5FC21F245302E300852048 /* Info.plist */,
@@ -82,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA5FC20D245302E200852048 /* test */ = {
+		FA5FC20D245302E200852048 /* POSLiteWeb */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA5FC238245302E300852048 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = FA5FC238245302E300852048 /* Build configuration list for PBXNativeTarget "POSLiteWeb" */;
 			buildPhases = (
 				FA5FC20A245302E200852048 /* Sources */,
 				FA5FC20B245302E200852048 /* Frameworks */,
@@ -94,7 +103,7 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = POSLiteWeb;
 			productName = test;
 			productReference = FA5FC20E245302E200852048 /* WEB.app */;
 			productType = "com.apple.product-type.application";
@@ -114,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA5FC209245302E200852048 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = FA5FC209245302E200852048 /* Build configuration list for PBXProject "POSLiteWeb" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA5FC20D245302E200852048 /* test */,
+				FA5FC20D245302E200852048 /* POSLiteWeb */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB1C0D62477BC1A00DED50E /* VCSwitch.xib in Resources */,
 				FA5FC21E245302E300852048 /* LaunchScreen.storyboard in Resources */,
 				FA5FC2442453032500852048 /* VCWebview.xib in Resources */,
 				FA5FC218245302E300852048 /* Assets.xcassets in Resources */,
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA017AC224649AD000D3846B /* SCWebKitView.swift in Sources */,
 				FA5FC212245302E200852048 /* AppDelegate.swift in Sources */,
 				FA5FC214245302E200852048 /* SceneDelegate.swift in Sources */,
 				FA5FC2432453032500852048 /* VCWebview.swift in Sources */,
+				FAB1C0D52477BC1A00DED50E /* VCSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA5FC209245302E200852048 /* Build configuration list for PBXProject "test" */ = {
+		FA5FC209245302E200852048 /* Build configuration list for PBXProject "POSLiteWeb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA5FC236245302E300852048 /* Debug */,
@@ -340,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA5FC238245302E300852048 /* Build configuration list for PBXNativeTarget "test" */ = {
+		FA5FC238245302E300852048 /* Build configuration list for PBXNativeTarget "POSLiteWeb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA5FC239245302E300852048 /* Debug */,

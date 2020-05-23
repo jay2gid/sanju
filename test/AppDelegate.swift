@@ -30,10 +30,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     class func launchWindow(window:UIWindow) {
-        let vcFirst = VCWebview.init(nibName: "VCWebview", bundle: nil)
-        window.rootViewController = vcFirst
+        let vcFirst = VCSwitch.init(nibName: "VCSwitch", bundle: nil)
+        
+        SCNavigation =  UINavigationController.init(rootViewController: vcFirst)
+        SCNavigation.setNavigationBarHidden(true, animated: false)
+        
+        window.rootViewController = SCNavigation
         window.makeKeyAndVisible()
     }
 
 }
 
+var SCNavigation =  UINavigationController()
