@@ -17,6 +17,8 @@
 		FA896F702453316E00D5D601 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA896F6F2453316E00D5D601 /* WebKit.framework */; };
 		FAB1C0D52477BC1A00DED50E /* VCSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1C0D32477BC1A00DED50E /* VCSwitch.swift */; };
 		FAB1C0D62477BC1A00DED50E /* VCSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB1C0D42477BC1A00DED50E /* VCSwitch.xib */; };
+		FAB1C0D92479002700DED50E /* CoreSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1C0D72479002700DED50E /* CoreSwift.swift */; };
+		FAB1C0DA2479002800DED50E /* CoreSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB1C0D82479002700DED50E /* CoreSwift.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		FA896F6F2453316E00D5D601 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FAB1C0D32477BC1A00DED50E /* VCSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSwitch.swift; sourceTree = "<group>"; };
 		FAB1C0D42477BC1A00DED50E /* VCSwitch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCSwitch.xib; sourceTree = "<group>"; };
+		FAB1C0D72479002700DED50E /* CoreSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSwift.swift; sourceTree = "<group>"; };
+		FAB1C0D82479002700DED50E /* CoreSwift.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreSwift.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				FA017AC124649AD000D3846B /* SCWebKitView.swift */,
 				FAB1C0D32477BC1A00DED50E /* VCSwitch.swift */,
 				FAB1C0D42477BC1A00DED50E /* VCSwitch.xib */,
+				FAB1C0D72479002700DED50E /* CoreSwift.swift */,
+				FAB1C0D82479002700DED50E /* CoreSwift.xib */,
 				FA5FC217245302E300852048 /* Assets.xcassets */,
 				FA5FC21C245302E300852048 /* LaunchScreen.storyboard */,
 				FA5FC21F245302E300852048 /* Info.plist */,
@@ -147,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB1C0D62477BC1A00DED50E /* VCSwitch.xib in Resources */,
+				FAB1C0DA2479002800DED50E /* CoreSwift.xib in Resources */,
 				FA5FC21E245302E300852048 /* LaunchScreen.storyboard in Resources */,
 				FA5FC2442453032500852048 /* VCWebview.xib in Resources */,
 				FA5FC218245302E300852048 /* Assets.xcassets in Resources */,
@@ -162,6 +169,7 @@
 			files = (
 				FA017AC224649AD000D3846B /* SCWebKitView.swift in Sources */,
 				FA5FC212245302E200852048 /* AppDelegate.swift in Sources */,
+				FAB1C0D92479002700DED50E /* CoreSwift.swift in Sources */,
 				FA5FC214245302E200852048 /* SceneDelegate.swift in Sources */,
 				FA5FC2432453032500852048 /* VCWebview.swift in Sources */,
 				FAB1C0D52477BC1A00DED50E /* VCSwitch.swift in Sources */,

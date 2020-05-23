@@ -34,4 +34,14 @@ class VCSwitch: UIViewController {
         
     }
     
+    
+    
+    //  goto next viewcontroller
+    @IBAction func tapNext(_ sender: Any) {
+        
+        let vcCore = CoreSwift.init(nibName: "CoreSwift", bundle: nil)
+        
+        self.navigationController?.pushViewController(vcCore, animated: true)
+
+    }
 }

@@ -30,12 +30,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     class func launchWindow(window:UIWindow) {
+       
         let vcFirst = VCSwitch.init(nibName: "VCSwitch", bundle: nil)
+
+        let navigation = UINavigationController.init(rootViewController: vcFirst)
+        navigation.setNavigationBarHidden(true, animated: false)
         
-        SCNavigation =  UINavigationController.init(rootViewController: vcFirst)
-        SCNavigation.setNavigationBarHidden(true, animated: false)
-        
-        window.rootViewController = SCNavigation
+        window.rootViewController = navigation
         window.makeKeyAndVisible()
     }
 

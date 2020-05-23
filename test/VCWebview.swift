@@ -26,31 +26,13 @@ class VCWebview: UIViewController ,WKNavigationDelegate , UIScrollViewDelegate{
     
     @IBAction func tapSubmit(_ sender: Any) {
         lblTemp.text =   txtFirst.text! + " " + txtLast.text!
-    }
-    
-    
-    
-    func myFun() {
-        
-        // contant str
-        let myName = "sanjay"
-        print(myName)
-        
-        // changable
-        var name : String!
-        
-        name = "hello"
-        name = "sanjay"
-      
-        print(name!)
-        
-        
-        
-//        var value : Int!
-        
-        
         
     }
+    
+    
+    
+    
+    
     
 
 }
