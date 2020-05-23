@@ -50,6 +50,10 @@ class CoreSwift: UIViewController {
     
     
     
-    
+    func leandFloat() {
+        
+        let valueFloat = 1.0
+        print(valueFloat)
+    }
     
 }
