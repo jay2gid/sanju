@@ -8,19 +8,18 @@
 
 import UIKit
 
-class VCTable: UIViewController,UITableViewDataSource,UITableViewDelegate {
+class VCTable: UIViewController,UITableViewDataSource,UITableViewDelegate { // 2nd stape
   
     
     @IBOutlet var table: UITableView!
-    
     let arrayName = ["sanjay","prasant", "hemant", "peter", "pubg"]
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        table.dataSource = self
-        table.delegate = self
+        table.dataSource = self //  3rd step
+        table.delegate = self  //
     }
 
     
@@ -32,14 +31,15 @@ class VCTable: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
     
     
-    
+      // 4 sptep
       func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return arrayName.count
       }
-      
+      // 5th step
       func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
                 
-            let cell = UITableViewCell.init(style: .value1, reuseIdentifier: "none")
+         // 6 step
+         let cell = UITableViewCell.init(style: .value1, reuseIdentifier: "none")
 
             cell.textLabel?.text  = arrayName[indexPath.row]
             cell.detailTextLabel?.text = "janu"
@@ -49,6 +49,8 @@ class VCTable: UIViewController,UITableViewDataSource,UITableViewDelegate {
       }
     
     
+    
+    // cell selection
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let alertController = UIAlertController.init(title: arrayName[indexPath.row], message: "janu", preferredStyle: .alert)
