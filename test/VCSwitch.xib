@@ -57,6 +57,14 @@
                         <action selector="tapUI:" destination="-1" eventType="touchUpInside" id="Np4-Vy-nhk"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KV-ze-8W3">
+                    <rect key="frame" x="190" y="452" width="35" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="table"/>
+                    <connections>
+                        <action selector="tapTable:" destination="-1" eventType="touchUpInside" id="Ngg-EN-B5F"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

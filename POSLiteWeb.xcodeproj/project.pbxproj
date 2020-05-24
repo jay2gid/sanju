@@ -21,6 +21,10 @@
 		FAB1C0DA2479002800DED50E /* CoreSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB1C0D82479002700DED50E /* CoreSwift.xib */; };
 		FAB1C0F124790AB300DED50E /* VCUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1C0EF24790AB300DED50E /* VCUI.swift */; };
 		FAB1C0F224790AB300DED50E /* VCUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB1C0F024790AB300DED50E /* VCUI.xib */; };
+		FAD0C2AE247A688A002060BE /* VCTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0C2AC247A688A002060BE /* VCTable.swift */; };
+		FAD0C2AF247A688A002060BE /* VCTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD0C2AD247A688A002060BE /* VCTable.xib */; };
+		FAD0C2B2247A692A002060BE /* CellTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0C2B0247A692A002060BE /* CellTable.swift */; };
+		FAD0C2B3247A692A002060BE /* CellTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD0C2B1247A692A002060BE /* CellTable.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		FAB1C0D82479002700DED50E /* CoreSwift.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreSwift.xib; sourceTree = "<group>"; };
 		FAB1C0EF24790AB300DED50E /* VCUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCUI.swift; sourceTree = "<group>"; };
 		FAB1C0F024790AB300DED50E /* VCUI.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCUI.xib; sourceTree = "<group>"; };
+		FAD0C2AC247A688A002060BE /* VCTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTable.swift; sourceTree = "<group>"; };
+		FAD0C2AD247A688A002060BE /* VCTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCTable.xib; sourceTree = "<group>"; };
+		FAD0C2B0247A692A002060BE /* CellTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTable.swift; sourceTree = "<group>"; };
+		FAD0C2B1247A692A002060BE /* CellTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTable.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +126,22 @@
 		FAB1C0EE24790A9600DED50E /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				FAD0C2AB247A686A002060BE /* tableview */,
 				FAB1C0ED24790A8700DED50E /* LearnUI */,
 				FAB1C0EC24790A7B00DED50E /* core */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		FAD0C2AB247A686A002060BE /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0C2AC247A688A002060BE /* VCTable.swift */,
+				FAD0C2AD247A688A002060BE /* VCTable.xib */,
+				FAD0C2B0247A692A002060BE /* CellTable.swift */,
+				FAD0C2B1247A692A002060BE /* CellTable.xib */,
+			);
+			path = tableview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +207,8 @@
 				FA5FC21E245302E300852048 /* LaunchScreen.storyboard in Resources */,
 				FA5FC2442453032500852048 /* VCWebview.xib in Resources */,
 				FAB1C0F224790AB300DED50E /* VCUI.xib in Resources */,
+				FAD0C2AF247A688A002060BE /* VCTable.xib in Resources */,
+				FAD0C2B3247A692A002060BE /* CellTable.xib in Resources */,
 				FA5FC218245302E300852048 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,9 +221,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA017AC224649AD000D3846B /* SCWebKitView.swift in Sources */,
+				FAD0C2AE247A688A002060BE /* VCTable.swift in Sources */,
 				FA5FC212245302E200852048 /* AppDelegate.swift in Sources */,
 				FAB1C0D92479002700DED50E /* CoreSwift.swift in Sources */,
 				FA5FC214245302E200852048 /* SceneDelegate.swift in Sources */,
+				FAD0C2B2247A692A002060BE /* CellTable.swift in Sources */,
 				FAB1C0F124790AB300DED50E /* VCUI.swift in Sources */,
 				FA5FC2432453032500852048 /* VCWebview.swift in Sources */,
 				FAB1C0D52477BC1A00DED50E /* VCSwitch.swift in Sources */,

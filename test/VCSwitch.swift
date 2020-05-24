@@ -55,4 +55,14 @@ class VCSwitch: UIViewController {
         
     }
     
+    
+    @IBAction func tapTable(_ sender: Any) {
+        
+        
+        let vcUI = VCTable.init(nibName: "VCTable", bundle: nil)
+        self.navigationController?.pushViewController(vcUI, animated: true)
+        
+    }
+    
+    
 }
