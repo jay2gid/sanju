@@ -10,11 +10,20 @@ import UIKit
 
 class CellTable: UITableViewCell {
 
+    class func commonInit() -> CellTable {
+           let nibView = Bundle.main.loadNibNamed("CellTable", owner: self, options: nil)?[0] as! CellTable
+           nibView.layoutIfNeeded()
+           return nibView
+    }
+    
     
     
     
     @IBOutlet var lblName: UILabel!
     @IBOutlet var lblAge: UILabel!
+    
+    
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

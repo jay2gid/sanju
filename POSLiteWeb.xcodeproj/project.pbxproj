@@ -62,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA2C350B247E40DD00C72510 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0C2B0247A692A002060BE /* CellTable.swift */,
+				FAD0C2B1247A692A002060BE /* CellTable.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 		FA5FC205245302E200852048 = {
 			isa = PBXGroup;
 			children = (
@@ -138,8 +147,7 @@
 			children = (
 				FAD0C2AC247A688A002060BE /* VCTable.swift */,
 				FAD0C2AD247A688A002060BE /* VCTable.xib */,
-				FAD0C2B0247A692A002060BE /* CellTable.swift */,
-				FAD0C2B1247A692A002060BE /* CellTable.xib */,
+				FA2C350B247E40DD00C72510 /* cell */,
 			);
 			path = tableview;
 			sourceTree = "<group>";

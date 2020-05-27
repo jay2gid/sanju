@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window : UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
         // Override point for customization after application launch.
      
         if #available(iOS 13.0, *) {
@@ -32,9 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     class func launchWindow(window:UIWindow) {
        
         let vcFirst = VCSwitch.init(nibName: "VCSwitch", bundle: nil)
-
         let navigation = UINavigationController.init(rootViewController: vcFirst)
-        
         window.rootViewController = navigation
         window.makeKeyAndVisible()
     }
