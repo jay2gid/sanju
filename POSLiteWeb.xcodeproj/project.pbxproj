@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FA017AC224649AD000D3846B /* SCWebKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA017AC124649AD000D3846B /* SCWebKitView.swift */; };
+		FA2815D9247F93C5007CB8D0 /* VCDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2815D7247F93C5007CB8D0 /* VCDetail.swift */; };
+		FA2815DA247F93C5007CB8D0 /* VCDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2815D8247F93C5007CB8D0 /* VCDetail.xib */; };
+		FA2815DD247F987C007CB8D0 /* ViewDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2815DC247F987C007CB8D0 /* ViewDetail.xib */; };
+		FA2815DF247F988E007CB8D0 /* ViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2815DE247F988E007CB8D0 /* ViewDetail.swift */; };
 		FA5FC212245302E200852048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FC211245302E200852048 /* AppDelegate.swift */; };
 		FA5FC214245302E200852048 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FC213245302E200852048 /* SceneDelegate.swift */; };
 		FA5FC218245302E300852048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5FC217245302E300852048 /* Assets.xcassets */; };
@@ -29,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		FA017AC124649AD000D3846B /* SCWebKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWebKitView.swift; sourceTree = "<group>"; };
+		FA2815D7247F93C5007CB8D0 /* VCDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCDetail.swift; sourceTree = "<group>"; };
+		FA2815D8247F93C5007CB8D0 /* VCDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCDetail.xib; sourceTree = "<group>"; };
+		FA2815DC247F987C007CB8D0 /* ViewDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewDetail.xib; sourceTree = "<group>"; };
+		FA2815DE247F988E007CB8D0 /* ViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetail.swift; sourceTree = "<group>"; };
 		FA5FC20E245302E200852048 /* WEB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5FC211245302E200852048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA5FC213245302E200852048 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA2815DB247F985B007CB8D0 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA2815DC247F987C007CB8D0 /* ViewDetail.xib */,
+				FA2815DE247F988E007CB8D0 /* ViewDetail.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		FA2C350B247E40DD00C72510 /* cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +115,7 @@
 				FA017AC124649AD000D3846B /* SCWebKitView.swift */,
 				FAB1C0D32477BC1A00DED50E /* VCSwitch.swift */,
 				FAB1C0D42477BC1A00DED50E /* VCSwitch.xib */,
+				FA2815DB247F985B007CB8D0 /* CustomViews */,
 				FAB1C0EE24790A9600DED50E /* VC */,
 				FA5FC217245302E300852048 /* Assets.xcassets */,
 				FA5FC21C245302E300852048 /* LaunchScreen.storyboard */,
@@ -138,6 +156,8 @@
 				FAD0C2AB247A686A002060BE /* tableview */,
 				FAB1C0ED24790A8700DED50E /* LearnUI */,
 				FAB1C0EC24790A7B00DED50E /* core */,
+				FA2815D7247F93C5007CB8D0 /* VCDetail.swift */,
+				FA2815D8247F93C5007CB8D0 /* VCDetail.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -211,7 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB1C0D62477BC1A00DED50E /* VCSwitch.xib in Resources */,
+				FA2815DA247F93C5007CB8D0 /* VCDetail.xib in Resources */,
 				FAB1C0DA2479002800DED50E /* CoreSwift.xib in Resources */,
+				FA2815DD247F987C007CB8D0 /* ViewDetail.xib in Resources */,
 				FA5FC21E245302E300852048 /* LaunchScreen.storyboard in Resources */,
 				FA5FC2442453032500852048 /* VCWebview.xib in Resources */,
 				FAB1C0F224790AB300DED50E /* VCUI.xib in Resources */,
@@ -237,6 +259,8 @@
 				FAB1C0F124790AB300DED50E /* VCUI.swift in Sources */,
 				FA5FC2432453032500852048 /* VCWebview.swift in Sources */,
 				FAB1C0D52477BC1A00DED50E /* VCSwitch.swift in Sources */,
+				FA2815D9247F93C5007CB8D0 /* VCDetail.swift in Sources */,
+				FA2815DF247F988E007CB8D0 /* ViewDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

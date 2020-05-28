@@ -18,6 +18,7 @@ class CellTable: UITableViewCell {
     
     
     
+    @IBOutlet var lblCity: UILabel!
     
     @IBOutlet var lblName: UILabel!
     @IBOutlet var lblAge: UILabel!

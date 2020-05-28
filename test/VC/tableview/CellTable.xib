@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="337" height="53"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMG-Of-qtU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMG-Of-qtU">
                                 <rect key="frame" x="8" y="32" width="206" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -53,6 +53,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="lblAge" destination="UaW-ts-4ie" id="xsM-qC-ooA"/>
+                <outlet property="lblCity" destination="gMG-Of-qtU" id="Lud-L1-yYM"/>
                 <outlet property="lblName" destination="eyQ-zp-Rga" id="o1j-pp-r8V"/>
             </connections>
             <point key="canvasLocation" x="-19.565217391304348" y="33.816964285714285"/>
