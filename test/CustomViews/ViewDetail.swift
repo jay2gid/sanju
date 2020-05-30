@@ -37,4 +37,11 @@ class ViewDetail: UIView {
     @IBAction func tapCross(_ sender: Any) {
         self.removeFromSuperview()
     }
+   
+    
+    @IBAction func tapClose3(_ sender: Any) {
+        tapCross(self)
+    }
+    
+    
 }

@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FA017AC224649AD000D3846B /* SCWebKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA017AC124649AD000D3846B /* SCWebKitView.swift */; };
+		FA2751AA24823B0A00D0A1A9 /* VCComplexUI1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2751A824823B0A00D0A1A9 /* VCComplexUI1.swift */; };
+		FA2751AB24823B0A00D0A1A9 /* VCComplexUI1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2751A924823B0A00D0A1A9 /* VCComplexUI1.xib */; };
+		FA2751AE24823F8000D0A1A9 /* VCImageSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2751AC24823F8000D0A1A9 /* VCImageSlide.swift */; };
+		FA2751AF24823F8000D0A1A9 /* VCImageSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2751AD24823F8000D0A1A9 /* VCImageSlide.xib */; };
+		FA2751B42482407100D0A1A9 /* tshirt-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2751B22482407100D0A1A9 /* tshirt-2.jpg */; };
+		FA2751B52482407100D0A1A9 /* tshirt-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA2751B32482407100D0A1A9 /* tshirt-1.jpeg */; };
 		FA2815D9247F93C5007CB8D0 /* VCDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2815D7247F93C5007CB8D0 /* VCDetail.swift */; };
 		FA2815DA247F93C5007CB8D0 /* VCDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2815D8247F93C5007CB8D0 /* VCDetail.xib */; };
 		FA2815DD247F987C007CB8D0 /* ViewDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2815DC247F987C007CB8D0 /* ViewDetail.xib */; };
@@ -33,6 +39,12 @@
 
 /* Begin PBXFileReference section */
 		FA017AC124649AD000D3846B /* SCWebKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWebKitView.swift; sourceTree = "<group>"; };
+		FA2751A824823B0A00D0A1A9 /* VCComplexUI1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCComplexUI1.swift; sourceTree = "<group>"; };
+		FA2751A924823B0A00D0A1A9 /* VCComplexUI1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCComplexUI1.xib; sourceTree = "<group>"; };
+		FA2751AC24823F8000D0A1A9 /* VCImageSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCImageSlide.swift; sourceTree = "<group>"; };
+		FA2751AD24823F8000D0A1A9 /* VCImageSlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCImageSlide.xib; sourceTree = "<group>"; };
+		FA2751B22482407100D0A1A9 /* tshirt-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt-2.jpg"; sourceTree = "<group>"; };
+		FA2751B32482407100D0A1A9 /* tshirt-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt-1.jpeg"; sourceTree = "<group>"; };
 		FA2815D7247F93C5007CB8D0 /* VCDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCDetail.swift; sourceTree = "<group>"; };
 		FA2815D8247F93C5007CB8D0 /* VCDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCDetail.xib; sourceTree = "<group>"; };
 		FA2815DC247F987C007CB8D0 /* ViewDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewDetail.xib; sourceTree = "<group>"; };
@@ -70,6 +82,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA2751A724823AEB00D0A1A9 /* MyUI */ = {
+			isa = PBXGroup;
+			children = (
+				FA2751A824823B0A00D0A1A9 /* VCComplexUI1.swift */,
+				FA2751A924823B0A00D0A1A9 /* VCComplexUI1.xib */,
+			);
+			path = MyUI;
+			sourceTree = "<group>";
+		};
+		FA2751B12482406000D0A1A9 /* customAssets */ = {
+			isa = PBXGroup;
+			children = (
+				FA2751B32482407100D0A1A9 /* tshirt-1.jpeg */,
+				FA2751B22482407100D0A1A9 /* tshirt-2.jpg */,
+			);
+			path = customAssets;
+			sourceTree = "<group>";
+		};
 		FA2815DB247F985B007CB8D0 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +148,7 @@
 				FA2815DB247F985B007CB8D0 /* CustomViews */,
 				FAB1C0EE24790A9600DED50E /* VC */,
 				FA5FC217245302E300852048 /* Assets.xcassets */,
+				FA2751B12482406000D0A1A9 /* customAssets */,
 				FA5FC21C245302E300852048 /* LaunchScreen.storyboard */,
 				FA5FC21F245302E300852048 /* Info.plist */,
 			);
@@ -153,11 +184,14 @@
 		FAB1C0EE24790A9600DED50E /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				FA2751A724823AEB00D0A1A9 /* MyUI */,
 				FAD0C2AB247A686A002060BE /* tableview */,
 				FAB1C0ED24790A8700DED50E /* LearnUI */,
 				FAB1C0EC24790A7B00DED50E /* core */,
 				FA2815D7247F93C5007CB8D0 /* VCDetail.swift */,
 				FA2815D8247F93C5007CB8D0 /* VCDetail.xib */,
+				FA2751AC24823F8000D0A1A9 /* VCImageSlide.swift */,
+				FA2751AD24823F8000D0A1A9 /* VCImageSlide.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -230,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2751AB24823B0A00D0A1A9 /* VCComplexUI1.xib in Resources */,
 				FAB1C0D62477BC1A00DED50E /* VCSwitch.xib in Resources */,
 				FA2815DA247F93C5007CB8D0 /* VCDetail.xib in Resources */,
 				FAB1C0DA2479002800DED50E /* CoreSwift.xib in Resources */,
@@ -238,8 +273,11 @@
 				FA5FC2442453032500852048 /* VCWebview.xib in Resources */,
 				FAB1C0F224790AB300DED50E /* VCUI.xib in Resources */,
 				FAD0C2AF247A688A002060BE /* VCTable.xib in Resources */,
+				FA2751B52482407100D0A1A9 /* tshirt-1.jpeg in Resources */,
 				FAD0C2B3247A692A002060BE /* CellTable.xib in Resources */,
+				FA2751AF24823F8000D0A1A9 /* VCImageSlide.xib in Resources */,
 				FA5FC218245302E300852048 /* Assets.xcassets in Resources */,
+				FA2751B42482407100D0A1A9 /* tshirt-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA017AC224649AD000D3846B /* SCWebKitView.swift in Sources */,
+				FA2751AA24823B0A00D0A1A9 /* VCComplexUI1.swift in Sources */,
 				FAD0C2AE247A688A002060BE /* VCTable.swift in Sources */,
 				FA5FC212245302E200852048 /* AppDelegate.swift in Sources */,
 				FAB1C0D92479002700DED50E /* CoreSwift.swift in Sources */,
@@ -259,6 +298,7 @@
 				FAB1C0F124790AB300DED50E /* VCUI.swift in Sources */,
 				FA5FC2432453032500852048 /* VCWebview.swift in Sources */,
 				FAB1C0D52477BC1A00DED50E /* VCSwitch.swift in Sources */,
+				FA2751AE24823F8000D0A1A9 /* VCImageSlide.swift in Sources */,
 				FA2815D9247F93C5007CB8D0 /* VCDetail.swift in Sources */,
 				FA2815DF247F988E007CB8D0 /* ViewDetail.swift in Sources */,
 			);

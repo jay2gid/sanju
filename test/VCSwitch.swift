@@ -50,9 +50,12 @@ class VCSwitch: UIViewController {
     
     @IBAction func tapUI(_ sender: Any) {
         
-        let vcUI = VCUI.init(nibName: "VCUI", bundle: nil)
-        self.navigationController?.pushViewController(vcUI, animated: true)
+//        let vcUI = VCUI.init(nibName: "VCUI", bundle: nil)
+//        self.navigationController?.pushViewController(vcUI, animated: true)
         
+        let slide = VCImageSlide.init(nibName: "VCImageSlide", bundle: nil)
+        self.navigationController?.pushViewController(slide
+            , animated: true)
     }
     
     
