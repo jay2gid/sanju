@@ -15,6 +15,7 @@ class VCDetail: UIViewController {
     @IBOutlet var lblAge: UILabel!
     @IBOutlet var lblCity: UILabel!
     
+    @IBOutlet var scroll: UIScrollView!
     
     var tuple = ("","","")
     
@@ -34,18 +35,19 @@ class VCDetail: UIViewController {
         lblAge.text = dictInfo["age"]
         lblCity.text = dictInfo["city"]
         
+        setScrollData()
+    }
+
+
+    
+    
+    func setScrollData()  {
+        
+        let viewPDetail = ViewProductDetail.commonInit()
+        scroll.addSubview(viewPDetail)
+        
+        scroll.contentSize = CGSize.init(width: 0, height: 1000)
         
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

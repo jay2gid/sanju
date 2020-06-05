@@ -18,6 +18,11 @@
 		FA2815DA247F93C5007CB8D0 /* VCDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2815D8247F93C5007CB8D0 /* VCDetail.xib */; };
 		FA2815DD247F987C007CB8D0 /* ViewDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2815DC247F987C007CB8D0 /* ViewDetail.xib */; };
 		FA2815DF247F988E007CB8D0 /* ViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2815DE247F988E007CB8D0 /* ViewDetail.swift */; };
+		FA522237248A2C290050B1DE /* VCMapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA522235248A2C290050B1DE /* VCMapKit.swift */; };
+		FA522238248A2C290050B1DE /* VCMapKit.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA522236248A2C290050B1DE /* VCMapKit.xib */; };
+		FA52223A248A2C4A0050B1DE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA522239248A2C4A0050B1DE /* MapKit.framework */; };
+		FA52223C248A33E00050B1DE /* ViewProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52223B248A33E00050B1DE /* ViewProductDetail.swift */; };
+		FA52223E248A33FA0050B1DE /* ViewProductDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA52223D248A33FA0050B1DE /* ViewProductDetail.xib */; };
 		FA5FC212245302E200852048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FC211245302E200852048 /* AppDelegate.swift */; };
 		FA5FC214245302E200852048 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FC213245302E200852048 /* SceneDelegate.swift */; };
 		FA5FC218245302E300852048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5FC217245302E300852048 /* Assets.xcassets */; };
@@ -49,6 +54,11 @@
 		FA2815D8247F93C5007CB8D0 /* VCDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCDetail.xib; sourceTree = "<group>"; };
 		FA2815DC247F987C007CB8D0 /* ViewDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewDetail.xib; sourceTree = "<group>"; };
 		FA2815DE247F988E007CB8D0 /* ViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetail.swift; sourceTree = "<group>"; };
+		FA522235248A2C290050B1DE /* VCMapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMapKit.swift; sourceTree = "<group>"; };
+		FA522236248A2C290050B1DE /* VCMapKit.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCMapKit.xib; sourceTree = "<group>"; };
+		FA522239248A2C4A0050B1DE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FA52223B248A33E00050B1DE /* ViewProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProductDetail.swift; sourceTree = "<group>"; };
+		FA52223D248A33FA0050B1DE /* ViewProductDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewProductDetail.xib; sourceTree = "<group>"; };
 		FA5FC20E245302E200852048 /* WEB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5FC211245302E200852048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA5FC213245302E200852048 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA52223A248A2C4A0050B1DE /* MapKit.framework in Frameworks */,
 				FA896F702453316E00D5D601 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,6 +116,8 @@
 			children = (
 				FA2815DC247F987C007CB8D0 /* ViewDetail.xib */,
 				FA2815DE247F988E007CB8D0 /* ViewDetail.swift */,
+				FA52223B248A33E00050B1DE /* ViewProductDetail.swift */,
+				FA52223D248A33FA0050B1DE /* ViewProductDetail.xib */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -158,6 +171,7 @@
 		FA896F6E2453316E00D5D601 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA522239248A2C4A0050B1DE /* MapKit.framework */,
 				FA896F6F2453316E00D5D601 /* WebKit.framework */,
 			);
 			name = Frameworks;
@@ -192,6 +206,8 @@
 				FA2815D8247F93C5007CB8D0 /* VCDetail.xib */,
 				FA2751AC24823F8000D0A1A9 /* VCImageSlide.swift */,
 				FA2751AD24823F8000D0A1A9 /* VCImageSlide.xib */,
+				FA522235248A2C290050B1DE /* VCMapKit.swift */,
+				FA522236248A2C290050B1DE /* VCMapKit.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -269,6 +285,7 @@
 				FA2815DA247F93C5007CB8D0 /* VCDetail.xib in Resources */,
 				FAB1C0DA2479002800DED50E /* CoreSwift.xib in Resources */,
 				FA2815DD247F987C007CB8D0 /* ViewDetail.xib in Resources */,
+				FA52223E248A33FA0050B1DE /* ViewProductDetail.xib in Resources */,
 				FA5FC21E245302E300852048 /* LaunchScreen.storyboard in Resources */,
 				FA5FC2442453032500852048 /* VCWebview.xib in Resources */,
 				FAB1C0F224790AB300DED50E /* VCUI.xib in Resources */,
@@ -278,6 +295,7 @@
 				FA2751AF24823F8000D0A1A9 /* VCImageSlide.xib in Resources */,
 				FA5FC218245302E300852048 /* Assets.xcassets in Resources */,
 				FA2751B42482407100D0A1A9 /* tshirt-2.jpg in Resources */,
+				FA522238248A2C290050B1DE /* VCMapKit.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,9 +313,11 @@
 				FAB1C0D92479002700DED50E /* CoreSwift.swift in Sources */,
 				FA5FC214245302E200852048 /* SceneDelegate.swift in Sources */,
 				FAD0C2B2247A692A002060BE /* CellTable.swift in Sources */,
+				FA52223C248A33E00050B1DE /* ViewProductDetail.swift in Sources */,
 				FAB1C0F124790AB300DED50E /* VCUI.swift in Sources */,
 				FA5FC2432453032500852048 /* VCWebview.swift in Sources */,
 				FAB1C0D52477BC1A00DED50E /* VCSwitch.swift in Sources */,
+				FA522237248A2C290050B1DE /* VCMapKit.swift in Sources */,
 				FA2751AE24823F8000D0A1A9 /* VCImageSlide.swift in Sources */,
 				FA2815D9247F93C5007CB8D0 /* VCDetail.swift in Sources */,
 				FA2815DF247F988E007CB8D0 /* ViewDetail.swift in Sources */,

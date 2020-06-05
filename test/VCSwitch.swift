@@ -67,5 +67,10 @@ class VCSwitch: UIViewController {
         
     }
     
+    @IBAction func tapMap(_ sender: Any) {
+        let vcUI = VCMapKit.init(nibName: "VCMapKit", bundle: nil)
+        self.navigationController?.pushViewController(vcUI, animated: true)
+        
+    }
     
 }

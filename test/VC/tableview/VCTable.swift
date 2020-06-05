@@ -110,12 +110,12 @@ class VCTable: UIViewController,UITableViewDataSource,UITableViewDelegate { // 2
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
       
-//        let vcDetail = VCDetail.init(nibName: "VCDetail", bundle: nil)
-//        vcDetail.tuple = arrayData[indexPath.row]
-//        vcDetail.dictInfo = arrayDataDict[indexPath.row]
-//        self.navigationController?.pushViewController(vcDetail, animated: true)
+        let vcDetail = VCDetail.init(nibName: "VCDetail", bundle: nil)
+        vcDetail.tuple = arrayData[indexPath.row]
+        vcDetail.dictInfo = arrayDataDict[indexPath.row]
+        self.navigationController?.pushViewController(vcDetail, animated: true)
         
-        drawView(raw_index: indexPath.row)
+//        drawView(raw_index: indexPath.row)
     }
 
     
